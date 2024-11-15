@@ -322,15 +322,15 @@ html.light {
 }
 
 .light .git-icon {
-    content: url("/github-mark.svg");
+    content: url("/github-mark-white.svg");
 }
 
-.light .mail-icon {
-    content: url("/mail.svg");
+.light .instagram-icon {
+    content: url("/instagram-white.svg");
 }
 
-.light .linked-in {
-    content: url("/li-in.png");
+.light .threads-icon {
+    content: url("/threads-white.svg");
 }
 
 .light .badge__link {
