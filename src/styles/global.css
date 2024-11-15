@@ -1,11 +1,11 @@
 /* Global styles */
 :root {
-    --background: #1e1e2e; 
-    --background-light: #fdebf3;
-    --button: #78c2ad;
-    --text: #fdebf3;
-    --text-light: #1e1e2e; 
-    --text-link: #78c2ad;
+    --background: #2e3440; 
+    --background-light: #eceff4;
+    --button: #8fbcbb;
+    --text: #eceff4;
+    --text-light: #3b4252; 
+    --text-link: #8fbcbb;
     --underline: #375a7f;
     --header: 'Pacifico', cursive;
     --body: 'Josefin Sans', sans-serif; 
@@ -240,7 +240,7 @@ footer {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 2px solid #fdebf3;
+    border: 2px solid #eceff4;
 }
 
 .icon__link:hover {
