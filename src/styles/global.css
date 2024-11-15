@@ -329,7 +329,7 @@ html.light {
     content: url("/instagram-white.svg");
 }
 
-.light .threads-icon {
+.light.threads-icon {
     content: url("/threads-white.svg");
 }
 
