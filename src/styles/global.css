@@ -252,12 +252,12 @@ footer {
     content: url("/github-mark-white.svg");
 }
 
-.mail-icon {
-    content: url("/mail-white.svg");
+.instagram-icon {
+    content: url("/instagram-white.svg");
 }
 
-.linked-in {
-    content: url("/li-in-white.png");
+.threads-icon {
+    content: url("/threads-white.png");
 }
 
 /* 404 */
