@@ -249,15 +249,15 @@ footer {
 
 
 .git-icon {
-    content: url("/public/github-mark-white.svg");
+    content: url("/github-mark-white.svg");
 }
 
 .instagram-icon {
-    content: url("/public/instagram-white.svg");
+    content: url("/instagram-white.svg");
 }
 
 .threads-icon {
-    content: url("/public/threads-white.svg");
+    content: url("/threads-white.svg");
 }
 
 /* 404 */
