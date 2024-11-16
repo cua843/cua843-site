@@ -62,12 +62,12 @@ small, li {
 
 .navbar__title {
     font-family: var(--header);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .navbar__menu {
     font-family: var(--body);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: right;
 }
 
