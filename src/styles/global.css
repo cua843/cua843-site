@@ -249,15 +249,15 @@ footer {
 
 
 .git-icon {
-    content: url("/github-mark-white.svg");
+    content: url("./public/github-mark.svg");
 }
 
 .instagram-icon {
-    content: url("/instagram-white.svg");
+    content: url("./public/instagram.svg");
 }
 
 .threads-icon {
-    content: url("/threads-white.svg");
+    content: url("./public/threads.svg");
 }
 
 /* 404 */
@@ -322,15 +322,15 @@ html.light {
 }
 
 .light .git-icon {
-    content: url("/github-mark-white.svg");
+    content: url("./public/github-mark-white.svg");
 }
 
 .light .instagram-icon {
-    content: url("/instagram-white.svg");
+    content: url("./public/instagram-white.svg");
 }
 
 .light.threads-icon {
-    content: url("/threads-white.svg");
+    content: url("./public/threads-white.svg");
 }
 
 .light .badge__link {
