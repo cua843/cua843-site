@@ -13,6 +13,7 @@
 font-face{
     src: local("jf-openhuninn-2.1") ,
     url('./public/jf-openhuninn-2.1.woff') format("woff"),
+    url('./public/jf-openhuninn-2.1.ttf') format("opentype"),
 }
 html {
     background-color: var(--background);
