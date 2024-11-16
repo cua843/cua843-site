@@ -7,8 +7,8 @@
     --text-light: #3b4252; 
     --text-link: #8fbcbb;
     --underline: #375a7f;
-    --header: 'Pacifico', cursive;
-    --body: 'Josefin Sans', sans-serif; 
+    --header: 'jf-openhuninn-2.1', cursive;
+    --body: 'jf-openhuninn-2.1', sans-serif; 
 }
 
 html {
@@ -96,9 +96,9 @@ small, li {
 .badge {
     background-color: #584966;
     color: var(--text);
-    border-radius: 6px;
+    border-radius: 7px;
     font-family: var(--body);
-    font-weight: 600;
+    font-weight: 400;
     font-size: .85rem;
     padding: 0.3em 0.6em 0.2em;
 }
