@@ -18,9 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: cua843-site
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
+      - name: cua843.github.io
         uses: withastro/action@v3
         # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
