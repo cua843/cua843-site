@@ -4,4 +4,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://cua843.github.io',
+    base: "/cua843-site"
   })
