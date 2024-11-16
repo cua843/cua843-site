@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: cua843-site
+      - name: cua843.github.io
         uses: actions/checkout@v4
       - name: cua843.github.io
         uses: withastro/action@v3
