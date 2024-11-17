@@ -25,12 +25,12 @@ const { url, image, title, body , platform, stack} = Astro.props;
         <h3 class="card__title">
             {title}
         </h3>
-        <p class="card__platform">
+        <span class="card__platform">
             {platform}
-        </p>
-        <p class="card__stack">
+        </span><br>
+        <span class="card__stack">
             {stack}
-        </p>
+        </span>
         <p class="card__txt">
             {body}
         </p>
