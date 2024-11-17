@@ -1,6 +1,6 @@
 ---
-title: 'Project 1'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'cua843.github.io'
+description: '就是這個網站'
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
@@ -13,6 +13,6 @@ worksImage2:
 platform: Web
 stack: Astro, JavaScript
 website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+github: https://github.com/cua843/cua843.github.io
 ---
 
