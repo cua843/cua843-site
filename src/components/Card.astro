@@ -4,9 +4,11 @@ interface Props {
     image: string;
     title: string;
     body: string;
+    platform: string;
+    stack: string;
 }
 
-const { url, image, title, body } = Astro.props;
+const { url, image, title, body , platform, stack} = Astro.props;
 ---
 
 <li class="card">
@@ -23,6 +25,12 @@ const { url, image, title, body } = Astro.props;
         <h3 class="card__title">
             {title}
         </h3>
+        <p class="card__platform">
+            {title}
+        </p>
+        <p class="card__stack">
+            {title}
+        </p>
         <p class="card__txt">
             {body}
         </p>

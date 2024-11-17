@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+
 const allProjects = await getCollection("projects");
 const pageTitle = "Works";
 ---
@@ -12,10 +13,12 @@ const pageTitle = "Works";
     <h2>Projects</h2>
     <ul role="list" class="link-card-grid">
         {allProjects.map((card) => <Card 
-            url={`/projects/${card.slug}/`} 
+            url={card.data.github} 
             image={card.data.image.url} 
             title={card.data.title} 
             body={card.data.description}
+            platform={card.data.platform}
+            stack={card.data.stack}
         />)}
     </ul>
 </Layout>
