@@ -41,7 +41,7 @@ h1 {
 h2 {
     text-decoration: underline var(--underline);
     text-decoration-thickness: 4px;
-    text-underline-offset: 6px;
+    text-underline-offset: 8px;
     font-size: 1.8rem;
     margin-bottom: 0;
 }
