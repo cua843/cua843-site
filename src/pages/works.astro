@@ -13,7 +13,7 @@ const pageTitle = "Works";
     <h2>Projects</h2>
     <ul role="list" class="link-card-grid">
         {allProjects.map((card) => <Card 
-            url={card.data.github} 
+            url={card.data.website} 
             image={card.data.image.url} 
             title={card.data.title} 
             body={card.data.description}
@@ -22,3 +22,4 @@ const pageTitle = "Works";
         />)}
     </ul>
 </Layout>
+<!--url={`/projects/${card.slug}/`} 網頁連結(目前隱藏中) -->
