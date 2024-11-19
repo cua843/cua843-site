@@ -48,7 +48,7 @@ h2 {
 
 p {
     font-family: var(--body);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     hyphens: auto;
     line-height: 1.5;
     text-indent: 1rem;
@@ -56,6 +56,11 @@ p {
 
 small, li {
     font-family: var(--body); 
+}
+
+ul {
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 /* Navigation Bar */
