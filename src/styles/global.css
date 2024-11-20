@@ -10,12 +10,14 @@
     --header: 'jf-openhuninn-2.1', cursive;
     --body: 'jf-openhuninn-2.1', sans-serif; 
 }
+
 @font-face{
     font-family: 'jf-openhuninn-2.1';
     src: local("jf-openhuninn-2.1") ,
     url('./public/jf-openhuninn-2.1.woff') format("woff"),
     url('./public/jf-openhuninn-2.1.ttf') format("opentype"),
 }
+
 html {
     background-color: var(--background);
     color: var(--text);
@@ -27,7 +29,7 @@ body {
     text-align: justify;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--header);
     font-weight: normal;
 }
@@ -46,6 +48,11 @@ h2 {
     margin-bottom: 0;
 }
 
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
 p {
     font-family: var(--body);
     font-size: 1.2rem;
@@ -59,6 +66,7 @@ small, li {
 }
 
 ul {
+    font-family: var(--body);
     font-size: 1.2rem;
     line-height: 1.5;
 }
