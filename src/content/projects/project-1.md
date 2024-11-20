@@ -11,7 +11,7 @@ worksImage2:
     url: '/image-2.webp'
     alt: 'second image of your project.'
 platform: Web
-stack: Astro, CSS, JavaScript,  
+stack: Astro, CSS, JavaScript  
 website: https://github.com/cua843/cua843.github.io
 github: https://github.com/cua843/cua843.github.io  
 ---
